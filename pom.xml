@@ -35,27 +35,27 @@
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>edu.depaul.cdm.se441</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>edu.depaul.cdm.se441</groupId>
       <artifactId>spring-boot-starter-cache</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>edu.depaul.cdm.se441</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>edu.depaul.cdm.se441</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>edu.depaul.cdm.se441</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>edu.depaul.cdm.se441</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
         <exclusions>
@@ -123,7 +123,7 @@
     </dependency>
 
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>edu.depaul.cdm.se441</groupId>
       <artifactId>spring-boot-devtools</artifactId>
       <optional>true</optional>
     </dependency>
@@ -180,7 +180,7 @@
         </executions>
       </plugin>
       <plugin>
-        <groupId>org.springframework.boot</groupId>
+        <groupId>edu.depaul.cdm.se441</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <executions>
           <execution>
