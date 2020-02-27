@@ -8,7 +8,7 @@
   <version>2.2.0.BUILD-SNAPSHOT</version>
 
   <parent>
-    <groupId>edu.depaul.cdm.se441</groupId>
+    <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>2.2.4.RELEASE</version>
   </parent>
@@ -35,27 +35,27 @@
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
-      <groupId>edu.depaul.cdm.se441</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
     <dependency>
-      <groupId>edu.depaul.cdm.se441</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-cache</artifactId>
     </dependency>
     <dependency>
-      <groupId>edu.depaul.cdm.se441</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
     <dependency>
-      <groupId>edu.depaul.cdm.se441</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <dependency>
-      <groupId>edu.depaul.cdm.se441</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
     </dependency>
     <dependency>
-      <groupId>edu.depaul.cdm.se441</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
         <exclusions>
@@ -123,7 +123,7 @@
     </dependency>
 
     <dependency>
-      <groupId>edu.depaul.cdm.se441</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-devtools</artifactId>
       <optional>true</optional>
     </dependency>
@@ -180,7 +180,7 @@
         </executions>
       </plugin>
       <plugin>
-        <groupId>edu.depaul.cdm.se441</groupId>
+        <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <executions>
           <execution>
