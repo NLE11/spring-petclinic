@@ -225,7 +225,7 @@
 
       <!-- Spring Boot Actuator displays build-related information if a git.properties
         file is present at the classpath -->
-/*      <plugin>
+<!--      <plugin>
         <groupId>pl.project13.maven</groupId>
         <artifactId>git-commit-id-plugin</artifactId>
         <executions>
@@ -244,7 +244,7 @@
           <failOnNoGitDirectory>false</failOnNoGitDirectory>
         </configuration>
       </plugin>
-*/
+-->
       <plugin>
         <groupId>ro.isdc.wro4j</groupId>
         <artifactId>wro4j-maven-plugin</artifactId>
