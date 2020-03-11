@@ -31,6 +31,8 @@
     <jacoco.version>0.8.5</jacoco.version>
     <nohttp-checkstyle.version>0.0.4.RELEASE</nohttp-checkstyle.version>
     <spring-format.version>0.0.19</spring-format.version>
+    
+    <checkstyle.skip>true</checkstyle.skip>
   </properties>
 
   <dependencies>
@@ -274,6 +276,18 @@
             <version>${mockito.version}</version>
           </dependency>
         </dependencies>
+      </plugin>
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-dependency-plugin</artifactId>
+	<version>2.4</version>
+	<executions>
+	   <execution>
+		<id>copy-dependencies</id>
+		<phase>package</phase>
+		<goals><goal>copy-dependencies</goal></goals>
+	   </execution>
+	</executions>
       </plugin>
     </plugins>
   </build>
