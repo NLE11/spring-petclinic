@@ -10,11 +10,11 @@ https://github.com/NLE11/spring-petclinic/blob/master/Dockerfile
 
 5 pts Your running docker instance as shown by a ps command.
 
-![Screen Capture #1](images/Mac1.jpg)
+![Screen Capture #1](images/Mac2.jpg)
 
 5 pts Your browser accessing the main page of the website from your local container.
 
-![Screen Capture #1](images/Mac2.jpg)
+![Screen Capture #1](images/Mac1.jpg)
 
 
 
